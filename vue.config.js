@@ -13,6 +13,7 @@ module.exports = {
     host: 'apprentice.com',
     open: true,
   },
+  //jquery配置
   configureWebpack: {
     plugins: [
       new webpack.ProvidePlugin({
