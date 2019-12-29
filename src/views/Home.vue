@@ -1,14 +1,16 @@
 <template>
   <div class="home">
-    红包雨
+    
+    <RedRain></RedRain>
   </div>
 </template>
 
 <script>
-
+import RedRain from '../components/RedRain.vue'
 export default {
   name: 'home',
   components: {
+    RedRain
   }
 }
 </script>
@@ -16,6 +18,7 @@ export default {
   .home{
     width: 100%;
     height: 100%;
-    background: rgba($color: #000000, $alpha: 0.7)
+    background: rgba($color: #000000, $alpha: 0.7);
+    background-image:url(../assets/image/meteor.gif) 
   }
 </style>
